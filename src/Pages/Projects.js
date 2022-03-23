@@ -83,6 +83,34 @@ function Projects(props) {
                         <p>Live Site</p>
                     </div>
                 </div>
+                <h1>OTHER PROJECTS</h1>
+                <div className = "projects-other">
+                    <div className = "project-card">
+                        <p>WEATHER APP</p>
+                        <h1>01</h1>
+                        <p>Weather application made in Next.js using OpenWeatherMaps API. View weather data (such as forecast, temperatures and humidity) from various cities around the globe.</p>
+                        <p>Github</p>
+                        <p>Live Site</p>
+                    </div>
+                    <div className = "project-card">
+                        <p>SNIPSNOK</p>
+                        <h1>02</h1>
+                        <p>Created along with team members as a part of a university project, SnipSnok is an application designed to help struggling content creators in Australia. Users can donate to others, follow others and post/like content they enjoy!</p>
+                        <p>Github</p>
+                    </div>
+                    <div className = "project-card">
+                        <p>BOUNCING BALLS</p>
+                        <h1>03</h1>
+                        <p>Created and developed a physics simulation of balls bouncing within a 3D cube space. Each ball is created as a class with a x, y, z coordinate, x, y, z speed and an update location function which takes into account the laws of physics to set up the trajectory of the ball.</p>
+                        <p>Github</p>
+                    </div>
+                    <div className = "project-card">
+                        <p>MY PORTFOLIO</p>
+                        <h1>04</h1>
+                        <p>Created this portfolio/previous portfolios to try out new CSS layouts and visual designs that I find cool.</p>
+                        <p>Github</p>
+                    </div>
+                </div>
             </div>
         </div>
     );

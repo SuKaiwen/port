@@ -1,0 +1,21 @@
+.contact-container {
+    padding: 100px 15%;
+    color: white;
+    background-color: #1e1e1e;
+}
+
+.contact-container p {
+    opacity: 0.75;
+}
+
+@media (width < 1900px) {
+    .contact-container {
+        padding: 100px 10%;
+    }
+}
+
+@media (width < 768px) {
+    .contact-container {
+        padding: 100px 5%;
+    }
+}

@@ -12,7 +12,7 @@
     flex-direction: column;
     box-sizing: border-box;
     width: 50%;
-    padding: 0 15%;
+    padding: 100px 15%;
     align-items: center;
 }
 
@@ -31,4 +31,26 @@
 .column-layout {
     display: flex;
     flex-direction: row;
+}
+
+@media (width < 1900px) {
+    .page-container .row {
+        padding: 50px 10%;
+    }
+}
+
+@media (width < 1268px) {
+    .column-layout {
+        display: block;
+    }
+
+    .page-container .row {
+        width: 100%;
+    }
+}
+
+@media (width < 768px) {
+    .page-container .row {
+        padding: 50px 5%;
+    }
 }

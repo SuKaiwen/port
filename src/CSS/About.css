@@ -59,3 +59,24 @@
     margin-left: -100px;
     color: black;
 }
+
+@media (width < 1268px) {
+    .details-uni::before {
+        display:none;
+    }
+    .details-akqa::before {
+        display:none;
+    }
+    .details-gpos::before {
+        display:none;
+    }
+    .details-familiar::before {
+        display:none;
+    }
+    .skills-familiar::before {
+        display:none;
+    }
+    .skills-other::before {
+        display:none;
+    }
+}

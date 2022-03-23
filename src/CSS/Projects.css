@@ -63,3 +63,72 @@
     object-fit: cover;
     width: 100%;
 }
+
+.projects-other {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    color: white;
+    background-color: #2a2a2a;
+    width: 23%;
+    padding: 30px;
+    position: relative;
+    box-sizing: border-box;
+    background: linear-gradient(225deg, transparent 50px, #2a2a2a 50px);
+    margin-bottom: 4%;
+    transition: 0.75s;
+}
+
+.project-card:hover {
+    color: black;
+    background: linear-gradient(225deg, transparent 50px, #f9f9f9 50px);
+}
+
+.project-card p {
+    opacity: 0.7;
+}
+
+@media (width < 1900px) {
+    .projects .project-container {
+        width: 80%;
+    }
+}
+
+@media (width < 1268px) {
+    .project-card {
+        width: 48%;
+    }
+}
+
+@media (width < 1000px) {
+    .project-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-title {
+        font-size: 30px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .project-header {
+        font-size: 50px;
+        letter-spacing: 3px;
+    }
+}
+
+@media (width < 768px) {
+    .projects .project-container {
+        width: 90%;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+}
