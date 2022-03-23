@@ -1,0 +1,61 @@
+.page-container .self-image {
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.page-container .details-container {
+    text-align: left;
+    width: 100%;
+}
+
+.details-container p{
+    margin: 10px 0;
+    color: gray;
+}
+
+.details-title {
+    color: black !important;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.details-main {
+    color: black !important;
+}
+
+.details-uni::before {
+    content: "2017 - 2021 ";
+    position: absolute;
+    margin-left: -100px;
+    color: black;
+}
+
+.details-akqa::before {
+    content: "Oct 2021 - Present";
+    position: absolute;
+    margin-left: -150px;
+    color: black;
+}
+
+.details-gpos::before {
+    content: "Dec 2019 - Feb 2020";
+    position: absolute;
+    margin-left: -163px;
+    color: black;
+}
+
+.skills-familiar::before {
+    content: "Core Skills";
+    position: absolute;
+    margin-left: -93px;
+    color: black;
+}
+
+.skills-other::before {
+    content: "Other Skills";
+    position: absolute;
+    margin-left: -100px;
+    color: black;
+}

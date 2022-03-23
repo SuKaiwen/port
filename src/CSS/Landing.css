@@ -1,0 +1,18 @@
+.landing {
+    background-color: #1e1e1e;
+}
+
+.landing h1, .landing p {
+    color: white !important;
+}
+
+.landing h1 {
+    letter-spacing: 5px;
+    font-size: 80px;
+    margin: 5px;
+}
+
+.landing p {
+    font-size: 20px;
+    margin: 5px;
+}
