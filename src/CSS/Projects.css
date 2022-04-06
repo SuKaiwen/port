@@ -49,9 +49,19 @@
 }
 
 .project-row .main-image {
+    display: inline-block;
     width: 73%;
     margin-right: 2%;
     height: auto;
+    overflow: hidden; 
+}
+
+.project-row .main-image img {
+    transition: 0.5s;
+}
+
+.project-row .main-image img:hover {
+    transform: scale(1.25);
 }
 
 .project-row .side-image {
