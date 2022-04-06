@@ -54,14 +54,11 @@
     margin-right: 2%;
     height: auto;
     overflow: hidden; 
-}
-
-.project-row .main-image img {
     transition: 0.5s;
 }
 
-.project-row .main-image img:hover {
-    transform: scale(1.25);
+.project-row .main-image:hover {
+    transform: scale(1.05);
 }
 
 .project-row .side-image {
@@ -95,8 +92,7 @@
 }
 
 .project-card:hover {
-    color: black;
-    background: linear-gradient(225deg, transparent 50px, #f9f9f9 50px);
+    background: linear-gradient(225deg, transparent 50px, #4d4d4d 50px);
 }
 
 .project-card p {

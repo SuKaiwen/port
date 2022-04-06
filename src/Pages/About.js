@@ -8,9 +8,9 @@ function About(props) {
                 <h1>ABOUT ME</h1>
                 <div className = "details-container">
                     <p><i class="fas fa-user"></i> KEVIN SU</p>
-                    <p><i class="fas fa-envelope"></i> EMAIL</p>
-                    <p><i class="fab fa-linkedin"></i> LINKEDIN </p>
-                    <p><i class="fa-brands fa-github-square"></i> GITHUB </p>
+                    <a href="mailto:kevinsu@outlook.co.nz" target="_blank"><p><i class="fas fa-envelope"></i> EMAIL</p></a>
+                    <a href="https://www.linkedin.com/in/kevin-su-618163191/" target="_blank"><p><i class="fab fa-linkedin"></i> LINKEDIN </p></a>
+                    <a href="https://github.com/SuKaiwen" target="_blank"><p><i class="fa-brands fa-github-square"></i> GITHUB </p></a>
                 </div>
                 <img className = "self-image" src={me} alt = "" />
                 <div className = "details-container">
@@ -47,34 +47,54 @@ function About(props) {
                     <p>Digital Design and Communication Agency</p>
                     <ul>
                         <li>
-                            <p>Developed and maintained code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery</p>
+                            <p>Contributed to the development and maintenance of code bases for
+                            various e-commerce websites primarily using HTML, CSS, Sass, JS,
+                            React and jQuery.
+                            </p>
                         </li>
                         <li>
-                            <p>Performed testing to ensure cross-browser friendliness and mobile responsiveness</p>
+                            <p>Contributed in the configuration of client based digital asset
+                            management systems using Sitecore Content Hub 4.0</p>
                         </li>
                         <li>
-                            <p>Configured digital asset management systems for clients using Sitecore Content Hub</p>
+                            <p>Developed and integrated work-flow with custom triggers, scripts
+                            and actions to ensure correct state, product and user assignment
+                            upon performing state transitions in the work flow.
+                            </p>
+                        </li>
+                        <li>
+                            <p>Performed testing to ensure that front end applications are cross
+                            browser friendly and mobile responsive.
+                                                        </p>
                         </li>
                     </ul>
                     <p className = "details-gpos details-main">Front-end Intern | GPOS</p>
                     <p>Cloud Based Point of Sales Company</p>
                     <ul>
                         <li>
-                            <p>Developed templates using React and Ant Design</p>
+                            <p>Contributed in the development of new front end components and
+                                templates for clients using React and Ant Design.</p>
                         </li>
                         <li>
-                            <p>Refactored the website's code from vanilla HTML into a React Application</p>
+                            <p>Refactored the legacy code base from vanilla HTML into a React
+                            application.</p>
                         </li>
                         <li>
-                            <p>Wrote extensive integration and unit tests for the templates</p>
+                            <p>Performed unit and integration tests to ensure correct functionality,
+                            error handling and mobile responsiveness.</p>
                         </li>
                     </ul>
                 </div>
                 <div className = "details-container">
                     <h2>SKILLS</h2>
                     <hr />
-                    <p className = "skills-familiar details-main">HTML, CSS, JS, jQeury, React, CSS Frameworks (Bootstrap, Tailwind, SaSS), Next.js, Axios, Python, SQL</p>
-                    <p className = "skills-other details-main">Version Control (Git, Sourcetree), Responsive Design</p>
+                    <p className = "skills-familiar details-main">JavaScript, Python, Java, HTML, CSS, React, NextJS, NodeJS, Sass,
+                        Tailwind CSS, Bootstrap CSS, Axios, RESTful Web
+                        Services/API, Responsive Design.
+                        </p>
+                    <p className = "skills-other details-main">Version Control (Github, Sourcetree), Visual
+                    Studio Code, Intellij IDE.
+                    </p>
                     
                 </div>
             </div>

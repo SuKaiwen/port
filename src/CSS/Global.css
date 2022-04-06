@@ -33,6 +33,11 @@
     flex-direction: row;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 @media (width < 1900px) {
     .page-container .row {
         padding: 50px 10%;

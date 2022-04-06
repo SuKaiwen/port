@@ -28,8 +28,8 @@ function Projects(props) {
                         <p>In addition to those previously mentioned functionailities, users are also able to search for coins and filter coins by gainers/losers. Coinbased is built in React using the CoinGecko API and hosted on Vercel.</p>
                     </div>
                     <div>
-                        <p><i class="fab fa-github"></i> Github</p>
-                        <p><i class="fas fa-wifi"></i> Live Site</p>
+                        <a href = "https://github.com/SuKaiwen/coinbase" target="_blank"><p><i class="fab fa-github"></i> GITHUB</p></a>
+                        <a href = "https://coinbase-nine.vercel.app/" target="_blank"><p><i class="fas fa-wifi"></i> LIVE SITE</p></a>
                     </div>
                 </div>
                 <div className = "project-row">
@@ -45,8 +45,8 @@ function Projects(props) {
                         <p>This project is created using React and BeautifulDnD (drag and drop library) hosted on Vercel.</p>
                     </div>
                     <div>
-                        <p><i class="fab fa-github"></i> Github</p>
-                        <p><i class="fas fa-wifi"></i> Live Site</p>
+                        <a href = "https://github.com/SuKaiwen/task-assignment" target="_blank"><p><i class="fab fa-github"></i> GITHUB</p></a>
+                        <a href = "https://task-assignment.vercel.app/" target="_blank"><p><i class="fas fa-wifi"></i> LIVE SITE</p></a>
                     </div>
                 </div>
                 <div className = "project-row">
@@ -62,8 +62,8 @@ function Projects(props) {
                         <p>This project created in React with custom CSS and The Movie DB API and hosted on Vercel. </p>
                     </div>
                     <div>
-                        <p><i class="fab fa-github"></i> Github</p>
-                        <p><i class="fas fa-wifi"></i> Live Site</p>
+                        <a href = "https://github.com/SuKaiwen/movie-app" target="_blank"><p><i class="fab fa-github"></i> GITHUB</p></a>
+                        <a href = "https://movie-app-v4-six.vercel.app/" target="_blank"><p><i class="fas fa-wifi"></i> LIVE SITE</p></a>
                     </div>
                 </div>
                 <div className = "project-row">
@@ -79,8 +79,8 @@ function Projects(props) {
                         <p>Hit "solve" for the visualisation to take effect. It pushes steps into a stack and uses a setTimeout to visualise each step once the algorithm has completed.</p>
                     </div>
                     <div>
-                        <p><i class="fab fa-github"></i> Github</p>
-                        <p><i class="fas fa-wifi"></i> Live Site</p>
+                        <a href = "https://github.com/SuKaiwen/visualiser" target="_blank"><p><i class="fab fa-github"></i> GITHUB</p></a>
+                        <a href = "https://visualiser.vercel.app/" target="_blank"><p><i class="fas fa-wifi"></i> LIVE SITE</p></a>
                     </div>
                 </div>
                 <h1>OTHER PROJECTS</h1>
@@ -89,25 +89,25 @@ function Projects(props) {
                         <p>WEATHER APP</p>
                         <h1>01</h1>
                         <p>Weather application made in Next.js using OpenWeatherMaps API. View weather data (such as forecast, temperatures and humidity) from various cities around the globe.</p>
-                        <p><i class="fab fa-github"></i> Github</p>
+                        <a href = "https://github.com/SuKaiwen/next-weather" target="_blank"><p><i class="fab fa-github"></i> GITHUB</p></a>
                     </div>
                     <div className = "project-card">
                         <p>SNIPSNOK</p>
                         <h1>02</h1>
                         <p>Created along with team members as a part of a university project, SnipSnok is an application designed to help struggling content creators in Australia. Users can donate to others, follow others and post/like content they enjoy!</p>
-                        <p><i class="fab fa-github"></i> Github</p>
+                        <a href = "https://github.com/SuKaiwen/SnipSnok" target="_blank"><p><i class="fab fa-github"></i> GITHUB</p></a>
                     </div>
                     <div className = "project-card">
                         <p>BOUNCING BALLS</p>
                         <h1>03</h1>
                         <p>Created and developed a physics simulation of balls bouncing within a 3D cube space. Each ball is created as a class with a x, y, z coordinate, x, y, z speed and an update location function which takes into account the laws of physics to set up the trajectory of the ball.</p>
-                        <p><i class="fab fa-github"></i> Github</p>
+                        <a href = "https://github.com/SuKaiwen/BouncingBalls" target="_blank"><p><i class="fab fa-github"></i> GITHUB</p></a>
                     </div>
                     <div className = "project-card">
                         <p>MY PORTFOLIO</p>
                         <h1>04</h1>
                         <p>Created this portfolio/previous portfolios to try out new CSS layouts and visual designs that I find cool.</p>
-                        <p><i class="fab fa-github"></i> Github</p>
+                        <a href = "https://github.com/SuKaiwen/port" target="_blank"><p><i class="fab fa-github"></i> GITHUB</p></a>
                     </div>
                 </div>
             </div>

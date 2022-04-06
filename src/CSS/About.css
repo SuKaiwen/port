@@ -54,9 +54,9 @@
 }
 
 .skills-other::before {
-    content: "Other Skills";
+    content: "Technologies";
     position: absolute;
-    margin-left: -100px;
+    margin-left: -110px;
     color: black;
 }
 

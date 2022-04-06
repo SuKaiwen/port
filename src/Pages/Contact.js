@@ -5,8 +5,8 @@ function Contact(props) {
         <div className = "contact-container">
             <h1>CONTACT ME</h1>
             <p>Thank you for making it all the way to the end. Feel free to reach out to me!</p>
-            <p><i class="fas fa-envelope"></i> EMAIL</p>
-            <p><i class="fab fa-linkedin"></i> LINKEDIN </p>
+            <a href="mailto:kevinsu@outlook.co.nz" target="_blank"><p><i class="fas fa-envelope"></i> EMAIL</p></a>
+            <a href="https://www.linkedin.com/in/kevin-su-618163191/" target="_blank"><p><i class="fab fa-linkedin"></i> LINKEDIN </p></a>
         </div>
     );
 }
