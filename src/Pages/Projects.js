@@ -106,7 +106,7 @@ function Projects(props) {
                     <div className = "project-card">
                         <p>MY PORTFOLIO</p>
                         <h1>04</h1>
-                        <p>Created this portfolio/previous portfolios to try out new CSS layouts and visual designs that I find cool.</p>
+                        <p>Created this portfolio/previous portfolios to try out new CSS layouts and visual designs that I find cool. Hosted on AWS S3 Bucket.</p>
                         <a href = "https://github.com/SuKaiwen/port" target="_blank"><p><i class="fab fa-github"></i> GITHUB</p></a>
                     </div>
                 </div>
