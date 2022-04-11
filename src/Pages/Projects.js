@@ -9,7 +9,6 @@ import movieMobile from "../Images/movie-mobile.jpg";
 import visualiser from "../Images/lis.jpg";
 import lisMobile from "../Images/visualiser-mobile.jpg";
 
-
 function Projects(props) {
     return (
         <div className = "page-container projects">
