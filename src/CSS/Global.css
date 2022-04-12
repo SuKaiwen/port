@@ -4,7 +4,9 @@
     align-items: center;
     justify-content: center;
     background-color: #fefefe;
-    min-height: 100vh;
+    min-height: 800px;
+    box-sizing: border-box;
+    padding: 150px 0;
 }
 
 .page-container .row {
@@ -14,6 +16,48 @@
     width: 50%;
     padding: 100px 15%;
     align-items: center;
+}
+
+.main-text {
+    width: 800px;
+    text-align: center;
+}
+
+.main-text .logo-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 20%;
+    font-size: 30px;
+}
+
+.page-container h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.page-container h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #5e5e5e;
+}
+
+.page-container .main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+}
+
+.main-grid >* {
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.main-grid p {
+    margin: 2px;
+    font-size: 20px;
 }
 
 .row h1, .row h2 {
@@ -38,6 +82,15 @@ a {
     color: inherit;
 }
 
+li {
+    color: #5e5e5e;
+    font-size: 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 .p20 p {
     font-size: 20px;
 }
@@ -52,9 +105,31 @@ a {
     color: #FF5733;
 }
 
+.blue-color {
+    color: #4285F4;
+}
+
+.red-color {
+    color: #DB4437;
+}
+
+.yellow-color {
+    color: #F4B400;
+}
+
+.green-color {
+    color:#0F9D58;
+}
+
 @media (width < 1900px) {
     .page-container .row {
         padding: 50px 10%;
+    }
+}
+
+@media (width < 1600px) {
+    .page-container .main-grid {
+        width: 80%;
     }
 }
 
@@ -66,10 +141,45 @@ a {
     .page-container .row {
         width: 100%;
     }
+
+    .page-container .main-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .main-grid >* {
+        padding: 30px 0;
+    }
+
+    .main-text {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 10%;
+    }
+
+    .page-container h2 {
+        font-size: 20px;
+    }
 }
 
 @media (width < 768px) {
+    .main-text {
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    .main-text h2 {
+        text-align: left;
+    }
+
     .page-container .row {
         padding: 50px 5%;
+    }
+
+    .page-container .main-grid {
+        width: 90%;
+    }
+
+    .main-text .logo-container {
+        padding: 0 10%;
     }
 }

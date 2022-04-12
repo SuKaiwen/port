@@ -17,8 +17,11 @@ function Nav(props) {
 
     return (
         <div className = "nav">
-            <p><a href = "#landing">Kevin Su</a></p>
             <ul>
+                <p className = "logo left">KS</p>
+                <p><a href = "#landing left">Kevin Su</a></p>
+            </ul>
+            <ul className='ul-mobile'>
                 <li><a href = "#about">About</a></li>
                 <li><a href = "#projects">Projects</a></li>
                 <li><a href = "#contact">Contact</a></li>

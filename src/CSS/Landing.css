@@ -1,20 +1,47 @@
 .landing {
-    background-color: #1e1e1e;
+    background-color: white;
     box-sizing: border-box;
     padding: 10%;
 }
 
 .landing h1, .landing p, .landing h2, .landing i{
-    color: #f9f9f9 !important;
+    color: #1e1e1e !important;
 }
 
 .landing h1 {
-    letter-spacing: 5px;
-    font-size: 80px;
+    font-size: 50px;
     margin: 5px;
+    font-weight: 500;
 }
 
 .landing p {
     font-size: 20px;
     margin: 5px;
+}
+
+@media (width < 1600px) {
+    .landing .main-text {
+        width: 500px;
+        text-align: center;
+    }
+}
+
+@media (width < 1268px) {
+    .landing .main-text {
+        width: 700px;
+        text-align: center;
+    }
+}
+
+@media (width < 768px) {
+    .landing .main-text {
+        width: 90%;
+        text-align: center;
+    }
+
+    .landing h1 {
+        font-size: 30px;
+        margin: 5px;
+        font-weight: 500;
+    }
 }

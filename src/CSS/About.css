@@ -25,61 +25,7 @@
     color: black !important;
 }
 
-.details-uni::before {
-    content: "2017 - 2021 ";
-    position: absolute;
-    margin-left: -100px;
-    color: black;
-}
-
-.details-akqa::before {
-    content: "Oct 2021 - Present";
-    position: absolute;
-    margin-left: -150px;
-    color: black;
-}
-
-.details-gpos::before {
-    content: "Dec 2019 - Feb 2020";
-    position: absolute;
-    margin-left: -163px;
-    color: black;
-}
-
-.skills-familiar::before {
-    content: "Core Skills";
-    position: absolute;
-    margin-left: -93px;
-    color: black;
-}
-
-.skills-other::before {
-    content: "Technologies";
-    position: absolute;
-    margin-left: -110px;
-    color: black;
-}
-
 @media (width < 1268px) {
-    .details-uni::before {
-        display:none;
-    }
-    .details-akqa::before {
-        display:none;
-    }
-    .details-gpos::before {
-        display:none;
-    }
-    .details-familiar::before {
-        display:none;
-    }
-    .skills-familiar::before {
-        display:none;
-    }
-    .skills-other::before {
-        display:none;
-    }
-
     p {
         font-size: 20px;
     }
