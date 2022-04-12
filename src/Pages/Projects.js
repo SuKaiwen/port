@@ -11,7 +11,7 @@ import lisMobile from "../Images/visualiser-mobile.jpg";
 
 function Projects(props) {
     return (
-        <div className = "page-container projects">
+        <div className = "page-container projects" id = "projects">
             <div className = "project-container">
                 <h1 className = "project-header">PROJECTS</h1>
                 <div className = "project-row">

@@ -5,15 +5,18 @@ import './CSS/Landing.css';
 import './CSS/About.css';
 import './CSS/Projects.css';
 import './CSS/Contact.css';
+import './CSS/Nav.css';
 
 import Landing from './Pages/Landing';
 import About from './Pages/About';
 import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
+import Nav from './Components/Nav';
 
 function App() {
   return (
     <div className="App">
+      <Nav />
       <Landing />
       <About />
       <Projects />

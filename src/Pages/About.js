@@ -3,7 +3,7 @@ import me from '../Images/me.jpg';
 
 function About(props) {
     return (
-        <div className = "page-container column-layout">
+        <div className = "page-container column-layout" id = "about">
             <div className = "row">
                 <h1>ABOUT ME</h1>
                 <div className = "details-container p20">
