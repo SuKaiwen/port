@@ -6,21 +6,20 @@ function About(props) {
         <div className = "page-container column-layout">
             <div className = "row">
                 <h1>ABOUT ME</h1>
-                <div className = "details-container">
+                <div className = "details-container p20">
                     <p><i class="fas fa-user"></i> KEVIN SU</p>
-                    <a href="mailto:kevinsu@outlook.co.nz" target="_blank"><p><i class="fas fa-envelope"></i> EMAIL</p></a>
-                    <a href="https://www.linkedin.com/in/kevin-su-618163191/" target="_blank"><p><i class="fab fa-linkedin"></i> LINKEDIN </p></a>
-                    <a href="https://github.com/SuKaiwen" target="_blank"><p><i class="fa-brands fa-github-square"></i> GITHUB </p></a>
+                    <a href="mailto:kevinsu@outlook.co.nz" target="_blank"><p><i class="fas fa-envelope"></i> Email</p></a>
+                    <a href="https://www.linkedin.com/in/kevin-su-618163191/" target="_blank"><p><i class="fab fa-linkedin"></i> Linkedin</p></a>
+                    <a href="https://github.com/SuKaiwen" target="_blank"><p><i class="fa-brands fa-github-square"></i> Github</p></a>
                 </div>
                 <img className = "self-image" src={me} alt = "" />
-                <div className = "details-container">
-                    <p className = "details-title">A FEW WORDS FROM ME</p>
-                    <p>Hey, I'm Kevin a software engineer from Sydney, Australia. </p>
+                <div className = "details-container p20">
+                    <p className = "details-title">Hello there, nice to meet you! I'm Kevin, here's a little about me. </p>
                     <p>During highschool I took interest in subjects that enable my creativity such as art and graphical design and since then, building aesthetic things has grown to be a passion of mine. </p>
-                    <p>After dabbling in various engineering topics in my first year of university, I have grown to love web development (both front end and back end) and is always hungry to learn new things. I like to code things from scratch and bring life to awesome ideas.</p>
+                    <p>After dabbling in various engineering topics in my first year of university, I have grown to love web development (both front-end and back-end) and is always hungry to learn new things. I like to code things from scratch and bring life to awesome ideas.</p>
                 </div>
-                <div className = "details-container">
-                    <p className = "details-title">INTERESTS</p>
+                <div className = "details-container p20">
+                    <p className = "details-title">Some stuff I like</p>
                     <p>Chess, table tennis, user interfaces, graphic design and art/painting</p>
                 </div>
             </div>
@@ -32,11 +31,11 @@ function About(props) {
                     <p className = "details-uni details-main">Bachelor of Software Engineering Honours | The University of Sydney</p>
                     <ul>
                         <li>
-                            <p>Key Courses: OOP, Algorithm Design, Data Structures, Internet Software Platforms, Full Stack Application Design/Frameworks</p>
+                            <p>Key Courses: OOP, Algorithm Design, Data Structures, Internet Software Platforms, Full Stack Application Design/Frameworks.</p>
                         </li>
                         <li>
                             <p>Awards: Featured Project - our full stack application was chosen out of hundreds to be displayed as an
-                                example of a great project to future students. </p>
+                                example of a great project to future students.</p>
                         </li>
                     </ul>
                 </div>
@@ -54,11 +53,11 @@ function About(props) {
                         </li>
                         <li>
                             <p>Contributed in the configuration of client based digital asset
-                            management systems using Sitecore Content Hub 4.0</p>
+                            management systems using Sitecore Content Hub 4.0.</p>
                         </li>
                         <li>
                             <p>Developed and integrated work-flow with custom triggers, scripts
-                            and actions to ensure correct state, product and user assignment
+                            and actions using C# (ASP.NET) to ensure correct state, product and user assignment
                             upon performing state transitions in the work flow.
                             </p>
                         </li>

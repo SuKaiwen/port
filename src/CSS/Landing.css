@@ -1,9 +1,11 @@
 .landing {
     background-color: #1e1e1e;
+    box-sizing: border-box;
+    padding: 10%;
 }
 
-.landing h1, .landing p {
-    color: white !important;
+.landing h1, .landing p, .landing h2, .landing i{
+    color: #f9f9f9 !important;
 }
 
 .landing h1 {

@@ -109,12 +109,21 @@
     .project-card {
         width: 48%;
     }
+
+    .projects .project-container {
+        width: 90%;
+    }
+
+    .project-card {
+        width: 100%;
+    }
 }
 
 @media (width < 1000px) {
     .project-grid {
         display: flex;
         flex-direction: column;
+        margin-bottom: 50px;
     }
 
     .project-title {
@@ -126,15 +135,5 @@
     .project-header {
         font-size: 50px;
         letter-spacing: 3px;
-    }
-}
-
-@media (width < 768px) {
-    .projects .project-container {
-        width: 90%;
-    }
-
-    .project-card {
-        width: 100%;
     }
 }

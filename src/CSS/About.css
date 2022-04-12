@@ -18,7 +18,7 @@
 .details-title {
     color: black !important;
     font-weight: bold;
-    letter-spacing: 3px;
+    font-size: 35px !important;
 }
 
 .details-main {
@@ -78,5 +78,9 @@
     }
     .skills-other::before {
         display:none;
+    }
+
+    p {
+        font-size: 20px;
     }
 }

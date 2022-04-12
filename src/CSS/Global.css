@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #f9f9f9;
+    background-color: #fefefe;
     min-height: 100vh;
 }
 
@@ -36,6 +36,20 @@
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.p20 p {
+    font-size: 20px;
+}
+
+/* Colors */
+
+.violet {
+    color: #3d2be2;
+}
+
+.salmon {
+    color: #FF5733;
 }
 
 @media (width < 1900px) {
