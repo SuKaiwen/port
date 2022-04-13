@@ -10,7 +10,7 @@
 
 .contact-icon {
     position: sticky;
-    top: calc(100vh - 100px - 250px);
+    top: calc(100vh - 100px - 280px);
     margin-left: calc(100vw - 300px);
     text-align: right;
     margin-right: 50px;
@@ -21,9 +21,11 @@
     position: absolute;
 }
 
-.contact-icon i {
+.contact-icon .main-icon {
     font-size: 50px;
     color: #FF5733;
+    background-color: white;
+    border-radius: 50%;
 }
 
 .contact-icon:hover .contact-content {
@@ -45,6 +47,10 @@
     transition: 0.5s;
 }
 
+.contact-content p {
+    font-size: 22px;
+}
+
 @media (width < 1900px) {
     .contact-container {
         padding: 100px 10%;
@@ -54,5 +60,10 @@
 @media (width < 768px) {
     .contact-container {
         padding: 100px 5%;
+    }
+
+    .contact-icon {
+        top: calc(100vh - 100px - 280px);
+        margin-left: calc(100vw - 230px);
     }
 }

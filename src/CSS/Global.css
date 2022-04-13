@@ -4,9 +4,9 @@
     align-items: center;
     justify-content: center;
     background-color: #fefefe;
-    min-height: 800px;
+    min-height: calc(100vh - 50px);
     box-sizing: border-box;
-    padding: 150px 0;
+    padding: 100px 0;
 }
 
 .page-container .row {
@@ -80,6 +80,10 @@
 .main-grid p {
     margin: 2px;
     font-size: 20px;
+}
+
+.main-grid li {
+    font-size: 12px !important;
 }
 
 .row h1, .row h2 {

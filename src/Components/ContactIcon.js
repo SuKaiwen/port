@@ -5,11 +5,11 @@ function ContactIcon(props) {
         <div className = "contact-icon">
             <div className = "contact-contents">    
                 <div className = "contact-content">
-                    <p>Linkedin</p>
-                    <p>Email</p>
-                    <p>Github</p>
+                    <a href="mailto:kevinsu@outlook.co.nz" target="_blank"><p>Email <i class="fas fa-envelope"></i></p></a>
+                    <a href="https://www.linkedin.com/in/kevin-su-618163191/" target="_blank"><p>Linkedin <i class="fab fa-linkedin"></i></p></a>
+                    <a href="https://github.com/SuKaiwen" target="_blank"><p>Github <i class="fa-brands fa-github-square"></i></p></a>
                 </div>
-                <i class="fa-solid fa-circle-info"></i>
+                <i class="fa-solid fa-circle-info main-icon"></i>
             </div>
         </div>
     );
