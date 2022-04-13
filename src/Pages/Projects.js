@@ -19,9 +19,12 @@ import otherData from '../Data/ProjectsOtherData';
 function Projects(props) {
     return (
         <div className = "page-container projects" id = "projects">
-            <div className='main-text'>
-                <h1 className = 'red-color'>Projects</h1>
-                <h2>I mainly like to use React as my go-to framework when creating projects. I have also created applications in NextJS and Vue. Here are some of my featured projects:</h2>
+            <div className = "project-container">
+                <hr />
+                <h2>FEATURED PROJECTS</h2>
+                <div className = "heading-text">
+                    <p>I mainly like to use React as my go-to framework when creating projects. I have also created applications in NextJS and Vue. Here are some of my featured projects:</p>
+                </div>
             </div>
             <div className = "project-container">
                 {mainData.map(project => {return (
@@ -37,14 +40,15 @@ function Projects(props) {
                     />
                 )})
                 }
-                <h1>OTHER PROJECTS</h1>
+                <hr />
+                <h2>OTHER PROJECTS</h2>
                 <div className = "projects-other">
                     {otherData.map(project => {return (
                         <ProjectCardOther
                             name = {project.name}
-                            number = {project.number}
                             desc = {project.desc}
                             githubLink = {project.githubLink}
+                            image = {project.image}
                         />
                     )})
 
