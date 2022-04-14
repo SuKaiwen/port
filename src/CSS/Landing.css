@@ -2,10 +2,20 @@
     background-color: white;
     box-sizing: border-box;
     padding: 10%;
+    background-image: url("../Images/mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -75px;
+    width: 100%;
+}
+
+.landing-tint {
+    background-color: rgba(9, 9, 114, 0.65);
+    background-blend-mode: multiply;
 }
 
 .landing h1, .landing p, .landing h2, .landing i{
-    color: #1e1e1e !important;
+    color: white !important;
 }
 
 .landing h1 {
@@ -17,6 +27,14 @@
 .landing p {
     font-size: 20px;
     margin: 5px;
+}
+
+.landing i {
+    transition: 0.3s;
+}
+
+.landing i:hover {
+    transform: scale(1.75);
 }
 
 @media (width < 1600px) {
@@ -40,7 +58,7 @@
     }
 
     .landing h1 {
-        font-size: 30px;
+        font-size: 25px;
         margin: 5px;
         font-weight: 500;
     }

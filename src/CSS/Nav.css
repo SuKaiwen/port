@@ -1,29 +1,44 @@
-.nav {
+nav {
     width: 100%;
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
     padding: 0 15%;
-    background-color: white;
-    color: black !important;
+    background-color: transparent;
     color: white;
     justify-content: space-between;
     position: sticky;
     top: 0;
-    border-bottom: 1px solid white;
     z-index: 10;
-    box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 12px;
     align-items: center;
     font-size: 20px;
+    transition: all 0.3s ease-in-out;
 }
 
-.nav button {
+.nav-hidden {
+    transform: translateY(-110%);
+}
+
+.nav-active {
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 3px 10px;
+}
+
+.nav-active a{
+    color:black;
+}
+
+.nav-active i {
+    color: black;
+}
+
+nav button {
     border: none;
     color: inherit;
     background-color: transparent;
 }
 
-.nav .logo {
+nav .logo {
     background-color: #0F9D58;
     color: white;
     padding: 10px 12px;
@@ -32,11 +47,11 @@
     transition: 0.5s;
 }
 
-.nav .logo:hover {
+nav .logo:hover {
     background-color: #F4B400;
 }
 
-.nav ul {
+nav ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -46,7 +61,7 @@
     text-align: left;
 }
 
-.nav li {
+nav li {
     right: 0; 
     margin-left: 20px;
     font-size: 20px;
@@ -54,52 +69,67 @@
     border-bottom: 3px solid transparent;
 }
 
-.nav li:hover {
+nav li:hover {
     border-bottom: 3px solid #4285F4;
 }
 
-.nav .left {
+nav .left {
     margin-right: 20px;
     margin-left: 0 !important;
 }
 
-.nav .mobile-bars {
+nav .mobile-bars {
     display: none;
 }
 
-.nav .menu {
+nav .menu {
     display: none;
     width: 100%;
     flex-direction: column;
 }
 
 @media (width < 1900px) {
-    .nav {
+    nav {
         flex-wrap: wrap;
         padding: 0 10%;
     }
 }
 
 @media (width < 1268px) {
-    .nav {
+    nav {
         padding: 0 5%;
     }
 }
 
 @media (width < 768px) {
-    .nav {
-        flex-wrap: wrap;
-    }
 
-    .nav .mobile-bars {
+    nav .mobile-bars {
         display: flex;
     }
 
-    .nav .ul-mobile {
+    nav .ul-mobile {
         display: none;
     }
 
-    .nav .menu {
+    nav .menu {
         display: flex;
+        background-color: white;
+        color: black;
     }
+
+    .nav-hidden {
+        transform: translateY(0);
+    }
+
+    nav {
+        flex-wrap: wrap;
+        background-color: white;
+        color: black;
+        box-shadow: rgba(149, 157, 165, 0.5) 0px 3px 10px;
+    }
+
+    .nav a {
+        color: black;
+    }
+    
 }

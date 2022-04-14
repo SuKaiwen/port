@@ -10,8 +10,8 @@
 
 .contact-icon {
     position: sticky;
-    top: calc(100vh - 100px - 280px);
-    margin-left: calc(100vw - 300px);
+    top: calc(100vh - 100px - 290px);
+    margin-left: calc(100vw - 230px);
     text-align: right;
     margin-right: 50px;
     z-index: 10;
@@ -19,36 +19,27 @@
 
 .contact-contents {
     position: absolute;
+    top: 290px;
+    left: 100px;
 }
 
 .contact-icon .main-icon {
-    font-size: 50px;
-    color: #FF5733;
-    background-color: white;
+    font-size: 40px;
+    color: white;
+    padding: 10px;
     border-radius: 50%;
-}
-
-.contact-icon:hover .contact-content {
-    background-color: white;
-    color:black;
-    box-shadow: rgba(149, 157, 165, 0.7) 0px 8px 15px;
-}
-
-.contact-content {
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    background-color: transparent;
-    color:transparent;
-    box-sizing: border-box;
-    padding: 25px;
-    border-radius: 20px;
-    margin-bottom: 25px;
+    background-color: #FF5733;
     transition: 0.5s;
 }
 
-.contact-content p {
-    font-size: 22px;
+.main-icon:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.contact-icon button {
+    border: none;
+    background-color: transparent;
 }
 
 @media (width < 1900px) {
@@ -62,8 +53,10 @@
         padding: 100px 5%;
     }
 
-    .contact-icon {
-        top: calc(100vh - 100px - 280px);
-        margin-left: calc(100vw - 230px);
-    }
+    
+.contact-contents {
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
 }

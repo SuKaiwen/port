@@ -4,9 +4,10 @@
     align-items: center;
     justify-content: center;
     background-color: #fefefe;
-    min-height: calc(100vh - 50px);
+    min-height: calc(100vh + 10px);
     box-sizing: border-box;
     padding: 100px 0;
+    z-index: 1;
 }
 
 .page-container .row {
@@ -74,7 +75,11 @@
 }
 
 .main-grid >*:hover {
-    box-shadow: rgba(149, 157, 165, 0.7) 0px 8px 15px;
+    box-shadow: rgba(149, 157, 165, 0.6) 0px 8px 24px;
+}
+
+.main-grid >* h2{
+    font-size: 40px;
 }
 
 .main-grid p {
@@ -238,5 +243,9 @@ hr {
 
     .main-text .logo-container {
         padding: 0 10%;
+    }
+
+    .page-container h1 {
+        font-size: 30px;
     }
 }
