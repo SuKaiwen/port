@@ -45,7 +45,7 @@ const mainData = [
         subName: "IMAGE STORAGE APPLICATION",
         desc1: "Firebry is an photo storage application where users are able to store their moments. Users are able to upload images along with a title, description and location",
         desc2: "and view images they have previously uploaded. Firebry is built with Google Firebase Backend and React Frontend.",
-        githubLink: "https://github.com/SuKaiwen/visualiser",
+        githubLink: "https://github.com/SuKaiwen/Firebry",
         siteLink: "",
         mainImage: Firebry,
         mobileImage: FirebryMobile
