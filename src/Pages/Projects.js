@@ -48,6 +48,7 @@ function Projects(props) {
                             name = {project.name}
                             desc = {project.desc}
                             githubLink = {project.githubLink}
+                            liveSite = {project.liveSite}
                             image = {project.image}
                         />
                     )})

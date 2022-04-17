@@ -57,9 +57,15 @@
     margin-bottom: 50px;
 }
 
-.project-card a {
+.project-card .footer {
     position: absolute;
     bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer > * {
+    margin-right: 20px;
 }
 
 .project-card img {

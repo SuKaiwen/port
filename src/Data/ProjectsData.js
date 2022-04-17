@@ -6,6 +6,8 @@ import movies from "../Images/movies.jpg";
 import movieMobile from "../Images/movie-mobile.jpg";
 import visualiser from "../Images/lis.jpg";
 import lisMobile from "../Images/visualiser-mobile.jpg";
+import Firebry from "../Images/Firebry.jpg";
+import FirebryMobile from "../Images/FirebryMobile.jpg";
 
 const mainData = [
     {
@@ -39,14 +41,14 @@ const mainData = [
         mobileImage: movieMobile
     },
     {
-        name: "VISUALISER",
-        subName: "VISUALISATION OF POPULAR PROGRAMMING QUESTION LONGEST INCREASING SUBSEQUENCE",
-        desc1: "Visualiser is a React application that helps visualise the dynamic programming solution to the longest increasing subsequence problem. Simply type in numbers in the input box and press submit to add that number to the array.",
-        desc2: "Hit solve for the visualisation to take effect. It pushes steps into a stack and uses a setTimeout to visualise each step once the algorithm has completed.",
+        name: "FIREBRY",
+        subName: "IMAGE STORAGE APPLICATION",
+        desc1: "Firebry is an photo storage application where users are able to store their moments. Users are able to upload images along with a title, description and location",
+        desc2: "and view images they have previously uploaded. Firebry is built with Google Firebase Backend and React Frontend.",
         githubLink: "https://github.com/SuKaiwen/visualiser",
-        siteLink: "https://visualiser.vercel.app/",
-        mainImage: visualiser,
-        mobileImage: lisMobile
+        siteLink: "",
+        mainImage: Firebry,
+        mobileImage: FirebryMobile
     }
 ]
 
