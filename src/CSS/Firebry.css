@@ -1,0 +1,32 @@
+.firebry-landing {
+    background-color: white;
+    box-sizing: border-box;
+    padding: 10%;
+    background-image: url("../Images/forest.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -75px;
+    width: 100%;
+    height: 50vh;
+    min-height: 500px;
+}
+
+.firebry-tint {
+    background-color: rgba(9, 9, 114, 0.65);
+    background-blend-mode: multiply;
+}
+
+.landing h1, .landing p, .landing h2, .landing i{
+    color: white !important;
+}
+
+.landing h1 {
+    font-size: 50px;
+    margin: 5px;
+    font-weight: 500;
+}
+
+.landing p {
+    font-size: 20px;
+    margin: 5px;
+}

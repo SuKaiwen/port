@@ -74,6 +74,10 @@
     transition: 0.5s;
 }
 
+.main-grid img {
+    width: 100%;
+}
+
 .main-grid >*:hover {
     box-shadow: rgba(149, 157, 165, 0.6) 0px 8px 24px;
 }
