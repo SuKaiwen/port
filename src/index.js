@@ -12,10 +12,7 @@ import { Routes ,Route, BrowserRouter as Router } from 'react-router-dom';
 ReactDOM.render(
   <Router>
       <Nav />
-      <Routes>
-        <Route path='/' element={<App/>} />
-        <Route path='/firebry' element={<Firebry/>} />
-      </Routes>
+      <App />
     </Router>,
   document.getElementById('root')
 );

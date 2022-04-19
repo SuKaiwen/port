@@ -35,9 +35,9 @@ function Nav(props) {
     if(toggle){
         menu = 
             <div className = "menu">
-                <p><a href = "/#about">About</a></p>
-                <p><a href = "/#projects">Projects</a></p>
-                <p><a href = "/#contact">Contact</a></p>
+                <p><a href = "#about">About</a></p>
+                <p><a href = "#projects">Projects</a></p>
+                <p><a href = "#contact">Contact</a></p>
             </div>
     }
 
@@ -45,12 +45,12 @@ function Nav(props) {
         <nav className={navAct ? "nav-active " + navClassList.join(" ") : " " + navClassList.join(" ")}>
             <ul>
                 <p className = "logo left">KS</p>
-                <p><a href = "/#landing">Kevin Su</a></p>
+                <p><a href = "#landing">Kevin Su</a></p>
             </ul>
             <ul className='ul-mobile'>
-                <li><a href = "/#about">About</a></li>
-                <li><a href = "/#projects">Projects</a></li>
-                <li><a href = "/#contact">Contact</a></li>
+                <li><a href = "#about">About</a></li>
+                <li><a href = "#projects">Projects</a></li>
+                <li><a href = "#contact">Contact</a></li>
             </ul>
             <div className = "mobile-bars">
                 <button onClick = {() => setToggle(!toggle)}><i class="fas fa-bars"></i></button>
