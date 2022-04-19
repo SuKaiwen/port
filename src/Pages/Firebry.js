@@ -7,6 +7,9 @@ import firebrymoments from '../Images/firebrymoments.JPG';
 import firebryupload from '../Images/firebryupload.JPG';
 
 function Firebry(props) {
+
+    document.title = "Kevin Su - Firebry";
+
     return (
         <div>
             <div className = "firebry-landing" id = "about">
@@ -18,7 +21,8 @@ function Firebry(props) {
                     <h2>Summary</h2>
                     <div className = "heading-text">
                         <p>Firebry is an image hosting website created using <span className = "bold">Firebase Backend</span> and <span className = "bold">React Frontend</span>. 
-                        Users are able to create an account, login, update password and add/upload images with an associated title, description and location and it will store it to the database with a click of a button.</p>
+                        Users are able to create an account, login, update password and add/upload images with an associated title, description and location and it will store it to the database with a click of a button. 
+                        Visit the <a href="https://github.com/SuKaiwen/Firebry" className = "bold"><i class="fa-brands fa-github"></i> Github Repository.</a></p>
                     </div>
                 </div>
                 <div className = "main-grid">

@@ -9,7 +9,17 @@ import lisMobile from "../Images/visualiser-mobile.jpg";
 import Firebry from "../Images/Firebry.jpg";
 import FirebryMobile from "../Images/FirebryMobile.jpg";
 
-const mainData = [
+const mainData = [ 
+    {
+        name: "FIREBRY",
+        subName: "IMAGE STORAGE APPLICATION",
+        desc1: "Firebry is an photo storage application with full authentication and sign-up where users are able to store their moments. Users are able to upload images along with a title, description and location",
+        desc2: "and view images they have previously uploaded. Firebry is built with Google Firebase Backend and React Frontend.",
+        githubLink: "https://github.com/SuKaiwen/Firebry",
+        siteLink: "/firebry",
+        mainImage: Firebry,
+        mobileImage: FirebryMobile
+    },
     {
         name: "COINBASED",
         subName: "CRYPTO CURRENCY PRICE TRACKER APPLICATION",
@@ -39,16 +49,6 @@ const mainData = [
         siteLink: "https://movie-app-v4-six.vercel.app/",
         mainImage: movies,
         mobileImage: movieMobile
-    },
-    {
-        name: "FIREBRY",
-        subName: "IMAGE STORAGE APPLICATION",
-        desc1: "Firebry is an photo storage application where users are able to store their moments. Users are able to upload images along with a title, description and location",
-        desc2: "and view images they have previously uploaded. Firebry is built with Google Firebase Backend and React Frontend.",
-        githubLink: "https://github.com/SuKaiwen/Firebry",
-        siteLink: "/firebry",
-        mainImage: Firebry,
-        mobileImage: FirebryMobile
     }
 ]
 

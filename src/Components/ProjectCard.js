@@ -20,7 +20,7 @@ function ProjectCard(props) {
                 </div>
                 <div>
                     <a href = {props.githubLink} target="_blank"><p><i class="fab fa-github"></i> GITHUB <i class="fa-solid fa-arrow-right red-color"></i></p></a>
-                    {props.siteLink && <a href = {props.siteLink} target="_blank"><p><i class="fas fa-wifi"></i> LIVE SITE <i class="fa-solid fa-arrow-right red-color"></i></p></a>}
+                    {props.siteLink && <a href = {props.siteLink} target="_blank"><p><i class="fas fa-wifi"></i> SITE / INFO <i class="fa-solid fa-arrow-right red-color"></i></p></a>}
                 </div>
             </div>
         </div>
