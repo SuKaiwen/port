@@ -16,7 +16,7 @@ const mainData = [
         desc1: "Firebry is an photo storage application with full authentication and sign-up where users are able to store their moments. Users are able to upload images along with a title, description and location",
         desc2: "and view images they have previously uploaded. Firebry is built with Google Firebase Backend and React Frontend.",
         githubLink: "https://github.com/SuKaiwen/Firebry",
-        siteLink: "",
+        siteLink: "https://firebry-info.vercel.app/",
         mainImage: Firebry,
         mobileImage: FirebryMobile
     },
