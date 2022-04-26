@@ -45,9 +45,7 @@ function About(props) {
                         </li>
                         <li>
                             <p>Developed and integrated work-flow with custom triggers, scripts
-                            and actions using C# (ASP.NET) to ensure correct state, product and user assignment
-                            upon performing state transitions in the work flow.
-                            </p>
+                            and actions using C# (ASP.NET).</p>
                         </li>
                         <li>
                             <p>Performed testing to ensure that front end applications are cross
