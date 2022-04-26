@@ -22,36 +22,20 @@ function About(props) {
 
             <div className = "main-grid">
                 <div>
-                    <h2>EDUCATION</h2>
-                    <p className = "bold">University of Sydney</p>
-                    <p>Bachelor of Engineering Honours (BeHons), Software Engineering</p>
-                    <p>Feb 2017 - July 2021</p>
-                    <ul>
-                        <li>
-                            <p><span className = "bold">Main Courses:</span> Object Oriented Programming,
-                            Algorithm Design, Data Structures, Internet Software
-                            Platforms, Human Computer Interaction, Full Stack
-                            Application Design, Distributed Systems.
-                            </p>
-                        </li>
-                        <li>
-                            <p><span className = "bold">Achievements:</span> Featured Project - Our full stack application for the
-                            internet software platforms course (ELEC3609) was
-                            chosen out of hundreds to be displayed as an example
-                            of a great project to future students.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-                <div>
                     <h2>EXPERIENCE</h2>
-                    <p className = "details-main bold">Assocaite Front-end Developer | AKQA</p>
-                    <p>Oct 2021 - Present</p>
-                    <p>Digital Design and Communication Agency</p>
-                    <ul>
+                    <div className = 'icon-row exp-header'>
+                        <h2 className = "background1">AKQA</h2>
+                        <div className = "col">
+                            <p className = "bold">Digital Design and Communications Agency</p>
+                            <p>Oct 2021 - Present</p>
+                        </div>
+                    </div>
+                    
+                    <p className="bold exp-title">Associate Front-end Developer</p>
+                    <ul className = "ul-line">
+                        <p className = "job-title">Oct 2019 - Present</p>
                         <li>
-                            <p>Contributed to the development and maintenance of code bases for
-                            various e-commerce websites primarily using HTML, CSS, Sass, JS,
+                            <p>Contributed to the development and maintenance of code bases primarily using HTML, CSS, Sass, JS,
                             React and jQuery.
                             </p>
                         </li>
@@ -71,10 +55,16 @@ function About(props) {
                                                         </p>
                         </li>
                     </ul>
-                    <p className = "details-main bold">Front-end Intern | GPOS</p>
-                    <p>Dec 2019 - Feb 2020</p>
-                    <p>Cloud Based Point of Sales Company</p>
-                    <ul>
+                    <div className = 'icon-row exp-header'>
+                        <h2 className = "background2">GPOS</h2>
+                        <div className = "col">
+                            <p className = "bold">Cloud Based Point of Sales Company</p>
+                            <p>3 Month Internships</p>
+                        </div>
+                    </div>
+                    <p className = "bold exp-title">Front-end Intern</p>
+                    <ul className = "ul-line">
+                        <p className = "job-title">Dec 2019 - Feb 2020</p>
                         <li>
                             <p>Contributed in the development of new front end components and
                                 templates for clients using React and Ant Design.</p>
@@ -86,6 +76,48 @@ function About(props) {
                         <li>
                             <p>Performed unit and integration tests to ensure correct functionality,
                             error handling and mobile responsiveness.</p>
+                        </li>
+                    </ul>
+                    <p className = "bold exp-title">QA Intern</p>
+                    <ul>
+                        <p className = "job-title">Dec 2018 - Feb 2019</p>
+                        <li>
+                            <p>Conducted black box testing on an cloud based application using Postman and manual testing.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>EDUCATION</h2>
+                    <div className = 'icon-row exp-header'>
+                        <h2 className = "background3">USYD</h2>
+                        <div className = "col">
+                            <p className = "bold">The University of Sydney</p>
+                            <p>Feb 2017 - Dec 2021</p>
+                        </div>
+                    </div>
+                    
+                    <p className="bold exp-title">Bachelor of Engineering Honours (Software)</p>
+                    <ul className = "ul-line">
+                        <p className = "job-title">Honours Class II Division I</p>
+                        <li>
+                            <p>Conferred Date: 8 Oct 2021.</p>
+                        </li>
+                        <li>
+                            <p>Graduation Date: 17 Dec 2021.</p>
+                        </li>
+                        <li>
+                            <p>Main Courses: Object Oriented Programming,
+                            Algorithm Design, Data Structures, Internet Software
+                            Platforms, Human Computer Interaction, Full Stack
+                            Application Design, Distributed Systems.
+                            </p>
+                        </li>
+                        <li>
+                            <p>Featured Project: Our full stack application for the
+                            internet software platforms course (ELEC3609) was
+                            chosen out of hundreds to be displayed as an example
+                            of a great project to future students.
+                            </p>
                         </li>
                     </ul>
                 </div>
@@ -100,10 +132,6 @@ function About(props) {
                         Studio Code, Intellij IDE.
                     </p>
                     <br />
-                </div>
-                <div>
-                    <h2>INTERESTS</h2>
-                    <p className = "details-main">Graphic Design, UI/UX, Art, Painting, Chess and Video games.</p>
                 </div>
             </div>
         </div>

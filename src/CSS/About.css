@@ -6,7 +6,7 @@
 }
 
 .about-container {
-    width: 60%;
+    width: 1300px;
 }
 
 .page-container .details-container {
@@ -37,7 +37,7 @@
 }
 
 .social-icon i:hover {
-    color: #4285F4;
+    color: rgb(109,131,242);
     transform: scale(1.30);
 }
 
@@ -49,6 +49,64 @@
 
 .details-main {
     color: black !important;
+}
+
+.exp-header {
+}
+
+.exp-header h2 {
+    align-items: center;
+    font-weight: 500;
+    color: white;
+    display: block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    -moz-border-radius: 50%;
+    border-radius: 50%; 
+    text-align: center;
+    font-size: 1em;
+}
+
+.exp-title {
+    display: list-item;      
+    list-style-type: disc;     
+    list-style-position: inside; 
+}
+
+.exp-header .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.exp-header p {
+    font-size: 17px;
+}
+
+.main-grid >* ul {
+    margin-left: 29px;
+}
+
+.main-grid >* .exp-title {
+    margin-left: 26px;
+}
+
+.main-grid >* .ul-line {
+    border-left: 2px solid black;
+}
+
+.main-grid >* li {
+    margin-left: 10px;
+    color: #373737 !important;
+}
+
+.main-grid >* ul .job-title {
+    color: #565656;
+    font-size: 15px;
+    margin-left: -17px;
+    margin-bottom: 20px;
+    margin-top: -5px;
 }
 
 @media (width < 1900px) {
