@@ -8,13 +8,15 @@ function About(props) {
                 <hr />
                 <h2>ABOUT ME</h2>
                 <div className = "heading-text">
-                    <p>Hi there! I'm Kevin, a Software Engineer with experience in the core structure of the frontend (HTML, CSS, JS) as well as various frameworks including React, NextJS and more. I enjoy developing intricate systems and websites with emphasis on functionality, UI/UX and efficiency.</p>
+                    <p>Hi there! I'm Kevin, a Software Engineer with experience in the core structure of the front-end (HTML, CSS, JS) as well as various frameworks including React, NextJS and more. I enjoy developing intricate systems and websites with emphasis on functionality, UI/UX and efficiency.</p>
                 </div>
                 <div className = "about-row">
-                    <a href ="/KevinSUCV.pdf" download><button className = "btn-resume">Download Resume</button></a>
-                    <a href="mailto:kevinsu@outlook.co.nz" target="_blank"><p><i class="fas fa-envelope"></i></p></a>
-                    <a href="https://www.linkedin.com/in/kevin-su-618163191/" target="_blank"><p><i class="fab fa-linkedin"></i></p></a>
-                    <a href="https://github.com/SuKaiwen" target="_blank"><p><i class="fa-brands fa-github-square"></i></p></a>
+                    <a href ="/KevinSUCV.pdf" className="resume-container" download><i class="fas fa-arrow-down"></i><button className = "btn-resume"> Download Resume</button></a>
+                    <div className = "icon-row">
+                        <a href="mailto:kevinsu@outlook.co.nz" className="social-icon" target="_blank"><p><i class="fas fa-envelope"></i></p></a>
+                        <a href="https://www.linkedin.com/in/kevin-su-618163191/" className="social-icon" target="_blank"><p><i class="fab fa-linkedin"></i></p></a>
+                        <a href="https://github.com/SuKaiwen" className="social-icon" target="_blank"><p><i class="fa-brands fa-github-square"></i></p></a>
+                    </div>
                 </div>
             </div>
 
@@ -43,7 +45,7 @@ function About(props) {
                 </div>
                 <div>
                     <h2>EXPERIENCE</h2>
-                    <p className = "details-main bold">Front-end Developer | AKQA</p>
+                    <p className = "details-main bold">Assocaite Front-end Developer | AKQA</p>
                     <p>Oct 2021 - Present</p>
                     <p>Digital Design and Communication Agency</p>
                     <ul>
@@ -89,7 +91,7 @@ function About(props) {
                 </div>
                 <div>
                     <h2>SKILLS</h2>
-                    <p className = "details-main"><span className = "bold">Core: </span>JavaScript, Python, Java, HTML, CSS, React, NextJS, NodeJS, Sass,
+                    <p className = "details-main"><span className = "bold">Core: </span>JavaScript, Python, Java, HTML, CSS, React, NextJS, Sass,
                         Tailwind CSS, Bootstrap CSS, Axios, RESTful Web
                         Services/API, Responsive Design.
                     </p>

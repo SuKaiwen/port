@@ -131,16 +131,44 @@ a {
 
 .btn-resume {
     padding: 15px 20px;
-    border-radius: 5px;
-    background-color: #4285F4;
+    border-radius: 0 8px 8px 0;
     color: white;
     border: none;
     font-size: 20px;
     transition: 0.5s;
+    border: 1px solid white;
+    background-color: inherit;
+    cursor: pointer;
 }
 
-.btn-resume:hover {
-    background-color: #DB4437;
+.resume-container{
+    background-color: #4285F4;
+    overflow: hidden;
+    border-radius: 9px;
+    transition: 0.3s;
+    margin-right: 25px;
+}
+
+.resume-container i {
+    font-size: 21px !important;
+    color: white !important;
+    padding: 15px 20px;
+    height: 23px;
+    border: 1px solid white;
+    border-radius: 8px 0 0 8px;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+}
+
+.icon-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.resume-container:hover {
+    transform: scale(1.1);
 }
 
 hr {
