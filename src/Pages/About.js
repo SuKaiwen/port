@@ -33,7 +33,7 @@ function About(props) {
                     
                     <p className="bold exp-title">Associate Front-end Developer</p>
                     <ul className = "ul-line">
-                        <p className = "job-title">Oct 2019 - Present</p>
+                        <p className = "job-title">Oct 2021 - Present</p>
                         <li>
                             <p>Contributed to the development and maintenance of code bases primarily using HTML, CSS, Sass, JS,
                             React and jQuery.
