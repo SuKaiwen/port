@@ -96,7 +96,6 @@
     display: inline-block;
     width: 73%;
     margin-right: 2%;
-    height: auto;
     overflow: hidden; 
     transition: 0.5s;
     box-shadow: rgba(149, 157, 165, 1) 0px 8px 30px;
@@ -108,7 +107,6 @@
 
 .project-row .side-image {
     width: 25%;
-    height: auto;
     border-radius: 20px;
     border: 7px solid black;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -177,9 +175,14 @@
         margin-left: 0;
         width: 100%;
     }
+
     .project-card {
         width: 100%;
         padding: 30px 0;
+    }
+
+    .project-card:hover{
+        box-shadow: none;
     }
 
     .heading-text {
@@ -193,8 +196,8 @@
     .project-row .main-image {
         width: 100%;
         margin-right: 0%;
-        height: auto;
         overflow: hidden;
+        height: auto;
     }
 
     .project-row .side-image {
