@@ -11,7 +11,7 @@ function About(props) {
                     <p>Hi there! I'm Kevin, a Software Engineer with experience in the core structure of the front-end (HTML, CSS, JS) as well as various frameworks including React, NextJS and more. I enjoy developing intricate systems and websites with emphasis on functionality, UI/UX and efficiency.</p>
                 </div>
                 <div className = "about-row">
-                    <a href ="/KevinSUCV.pdf" className="resume-container" download><i class="fas fa-arrow-down"></i><button className = "btn-resume"> Download Resume</button></a>
+                    <a href ="/KevinSUCV.pdf" className="resume-container" download><button className = "btn-resume"><i class="fas fa-arrow-down"></i> Download Resume</button></a>
                     <div className = "icon-row">
                         <a href="mailto:kevinsu@outlook.co.nz" className="social-icon" target="_blank"><p><i class="fas fa-envelope"></i></p></a>
                         <a href="https://www.linkedin.com/in/kevin-su-618163191/" className="social-icon" target="_blank"><p><i class="fab fa-linkedin"></i></p></a>
@@ -26,7 +26,7 @@ function About(props) {
                     <div className = 'icon-row exp-header'>
                         <h2 className = "background1">AKQA</h2>
                         <div className = "col">
-                            <p className = "bold">Digital Design and Communications Agency</p>
+                            <p className = "bold">Digital Design Agency</p>
                             <p>Oct 2021 - Present</p>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ function About(props) {
                     <div className = 'icon-row exp-header'>
                         <h2 className = "background2">GPOS</h2>
                         <div className = "col">
-                            <p className = "bold">Cloud Based Point of Sales Company</p>
+                            <p className = "bold">Point of Sales Company</p>
                             <p>3 Month Internships</p>
                         </div>
                     </div>

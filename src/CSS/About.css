@@ -51,9 +51,6 @@
     color: black !important;
 }
 
-.exp-header {
-}
-
 .exp-header h2 {
     align-items: center;
     font-weight: 500;
@@ -135,4 +132,8 @@
     .about-row {
         flex-direction: column;
     }
+
+    .icon-row >* {
+        margin-right: 10px;
+    } 
 }

@@ -147,16 +147,7 @@ a {
 }
 
 .resume-container i {
-    font-size: 21px !important;
-    color: white !important;
-    padding: 15px 20px;
-    height: 23px;
-    border: 1px solid white;
-    border-radius: 8px 0 0 8px;
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -o-transition: none !important;
-    transition: none !important;
+    padding-right: 10px;
 }
 
 .icon-row {

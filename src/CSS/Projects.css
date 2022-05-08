@@ -189,4 +189,15 @@
     .project-title {
         font-size: 30px;
     }
+
+    .project-row .main-image {
+        width: 100%;
+        margin-right: 0%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .project-row .side-image {
+        display: none;
+    }
 }
